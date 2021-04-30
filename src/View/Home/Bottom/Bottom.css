@@ -1,0 +1,59 @@
+.bottomGrid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+
+}
+.bottomContentWrapper{
+    padding-top: 70px;
+}
+.bottomTitle{
+    color: #FFFFFF ;
+    font-size: 24px;
+    font-family : 'VisbyRoundCF-Heavy'
+}
+.bottomContent{
+    color: #7A7A7A ;
+    font-size: 18px;
+    font-family : 'VisbyRoundCF-Medium'
+}
+.bottomWrapper{
+    background-color: #141414;
+    height: 601px;
+}
+.hacioFriends{
+    padding: 35px;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 20px;
+}
+
+.hacioFriendsContent1 { grid-area: 1 / 1 / 2 / 6; }
+.hacioFriendsContent2 { grid-area: 2 / 1 / 3 / 2; }
+.hacioFriendsContent3 { grid-area: 2 / 2 / 3 / 3; }
+
+.hacioTradeMark{
+    padding: 35px;
+}
+.hacioTrademarkText{
+    font-size: 15px;
+    font-family : 'VisbyRoundCF-Heavy';
+    
+    color: #7A7A7A ;
+}
+
+.youtubeFooter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.instagramFooter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

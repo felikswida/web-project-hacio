@@ -1,0 +1,13 @@
+.containerImageType3 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 25px;
+}
+.productImageType3{
+    text-align: center;
+}
+.productNameType3{
+    text-align: center;
+}

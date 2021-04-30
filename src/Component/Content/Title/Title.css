@@ -1,0 +1,19 @@
+.lineTitleContent {
+    width: 100%; 
+    border-bottom: 2px solid grey; 
+    line-height: 0.1em;
+ } 
+ 
+ .lineTitleContent .textContent { 
+     background:#fff; 
+     padding-right:10px; 
+     font-family: 'VisbyRoundCF-Heavy';
+     font-size: 30px;
+ }
+
+ .textContentChild {
+     color : #7A7A7A;
+     font-family: 'VisbyRoundCF-Medium';
+     font-size: 18px;
+     line-height: 50px;
+ }

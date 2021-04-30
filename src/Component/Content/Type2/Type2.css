@@ -1,0 +1,22 @@
+.wrapperType2{
+
+}
+
+.containerImageType2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 0px;
+    }
+.productImageType2{
+    text-align: center;
+}
+.productNameType2{
+    text-align: center;
+    font-family: 'VisbyRoundCF-Bold';
+}
+.productPricType2{
+    text-align: center;
+    font-family: 'VisbyRoundCF-Bold';
+}

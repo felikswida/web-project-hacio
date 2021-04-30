@@ -1,0 +1,18 @@
+
+
+.wrapperType1{
+   
+}
+
+.containerImage {
+    /* width: 50%; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    }
+    
+    .divImage1 { grid-area: 1 / 1 / 3 / 3; }
+    .divImage2 { grid-area: 1 / 3 / 2 / 4; }
+    .divImage3 { grid-area: 2 / 3 / 3 / 4; }
